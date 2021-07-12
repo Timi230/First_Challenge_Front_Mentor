@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Big-Shoulders" ;
+    src: url(../../public/Styles/Big_Shoulders_Display/BigShouldersDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Lexend";
+    src: url(../../public/Styles/Lexend_Deca/LexendDeca-Regular.ttf);
+}
+
+body{
+    font-size: 15px;
+    color: $gray;
+}
+
+h3{
+    font-family: "Big-Shoulders";
+    font-size: 45px;
+    font-style: bold;
+}
+
+p{
+    font-family: "Lexend";
+    font-size: 15px;
+    line-height: 30px;
+}
+
+button{
+    font-family: "Lexend";
+    font-size: 15px;
+}

@@ -1,0 +1,14 @@
+.btn{
+    background: $gray;
+    border: none;
+    border-radius: 50px;
+    padding: 1em 3em 1em 3em;
+    
+    @include color-btn($palette);
+
+    &:hover{
+        background: none;
+        border: solid 1px $gray;
+        color: $gray;
+    }
+}

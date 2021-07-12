@@ -1,0 +1,15 @@
+main{
+    width: 1040px;
+    height: auto;
+
+    margin: auto;
+    padding-top: 10%;
+
+    display: flex;
+    flex-direction: row;
+
+    @include mobile-only{
+        flex-direction: column;
+        width: 375px;
+    }   
+}

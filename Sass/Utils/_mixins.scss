@@ -1,0 +1,21 @@
+@mixin color-car($palette) {
+    @each $state, $var in $palette {
+        &--#{$state}{
+            background: map-get($palette, $state);
+        }
+    }   
+}
+    
+@mixin color-btn($palette){
+    @each $state, $var in $palette {
+        &--#{$state}{
+            color: map-get($palette, $state);
+        }
+    } 
+}
+
+@mixin mobile-only{
+    @media screen and (max-width: map-get($breakpoints, mobile)){
+        @content;     
+    }
+}

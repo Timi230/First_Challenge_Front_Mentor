@@ -1,0 +1,12 @@
+$color-txt:hsla(0, 0%, 100%, 0.75);
+$palette:(
+    Sedans: hsl(31, 77%, 52%),
+    Suvs: hsl(184, 100%, 22%),
+    Luxury: hsl(179, 100%, 13%),
+);
+
+$gray:hsl(0, 0%, 95%);
+
+$breakpoints:(
+    mobile: 599px
+);
