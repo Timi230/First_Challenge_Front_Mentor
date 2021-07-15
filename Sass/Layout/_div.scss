@@ -1,5 +1,23 @@
 .div{
     padding: 60px;
     @include color-car($palette);
+
+    &--Sedans{
+        border-radius: 2em 0 0 2em;
+    }
+
+    &--Luxury{
+        border-radius: 0 2em 2em 0;
+    }
+
+    @include mobile-only{
+        &--Sedans{
+            border-radius: 2em 2em 0 0;
+        }
+
+        &--Luxury{
+            border-radius: 0 0 2em 2em;
+        }
+    }
 }
 
